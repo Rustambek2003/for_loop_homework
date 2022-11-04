@@ -7,8 +7,7 @@ def main(list1):
         list: return  answer
     """
     ans = []
-    for i in range(len(list1)):
-        print(i)
-        ans.append(list1[i].capitalize)
+    for i in list1:
+        ans.append(i.capitalize())
     return ans
 print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
