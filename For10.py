@@ -6,4 +6,7 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    ans = []
+    for i in list1:
+        ans.append(i.title)
+    return ans
