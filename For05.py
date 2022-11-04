@@ -11,4 +11,4 @@ def main(A,B):
     for i in range(A,B+1):
         ans.append(i)
     
-    return ans
+    return ans[::-1]
