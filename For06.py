@@ -8,7 +8,7 @@ def main(A,B):
         int: return  answer
     """
     ans = 0
-    for i in range(A,B+1):
+    for i in range(A,B):
         ans += i
         print(i)
     return ans
